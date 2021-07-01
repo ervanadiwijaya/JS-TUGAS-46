@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <p>Klik Untuk Merubah Warna</p>
+
+    <button onclick="myFunction()">Ubah Warna</button>
+
+    <script>
+        function myFunction() {
+            let act;
+            let color = prompt("Ketikkan warna yang kamu inginkan", "yellow");
+            if (color != null || color != "") {
+                act = color;
+            }
+            document.body.style.backgroundColor = color;
+        }
+    </script>
+
+</body>
+
+</html>
